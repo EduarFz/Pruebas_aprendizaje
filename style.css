@@ -1,3 +1,40 @@
-.Pruebas_aprendizaje {
-    background: #913737;
-}
+body {
+    all: unset;
+  }
+
+  .navegacion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: aqua;
+  }
+
+  .nav-1, .nav-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .nav-1 img {
+    height: 50px;
+  }
+
+  .nav-1 ul, .nav-2 ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .nav-1 ul li, .nav-2 ul li {
+    display: inline;
+  }
+
+  .nav-1 ul li a, .nav-2 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  
+
+  
