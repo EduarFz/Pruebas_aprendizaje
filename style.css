@@ -1,11 +1,14 @@
 body {
     all: unset;
+    display: flex;
+    justify-content: center;
+    
   }
 
   .navegacion {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 1200px;
     background-color: aqua;
   }
 
@@ -14,6 +17,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+  }
+
+  .nav-2 {
+    justify-content: flex-end;
   }
 
   .nav-1 img {
